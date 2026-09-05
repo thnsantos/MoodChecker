@@ -7,21 +7,42 @@
 }
 
 :root {
-  --bg-color-pri: #386c8aa8;
+  --bg-color-pri: #d7e5ea;
   --bd-color-sec: #eef5f5;
-
+  --bg-buttom: rgb(29, 27, 27);
 
   --font-int: "Inter", sans-serif;
   --font-sora: "Sora", sans-serif;
   --font-news: "Newsreader", serif;
 
-  --tx-lg: 600 40px/150% var(--font-news);
+  --tx-lg: 500 40px/150% var(--font-news);
+  --tx-md: 400 16px/120% var(--font-int);
+  --tx-sm: 400 16px/120% var(--font-news);
 }
 
 body {
   background: var(--bg-color-pri);
 }
 
+label, a {
+  font: var(--tx-sm);
+}
+
+button {
+  margin-top: 1rem;
+  font: var(--tx-md);
+  color: white;
+  background: var(--bg-buttom);
+}
+
+p {
+  font: var(--tx-sm);
+}
+
 h1 {
   font: var(--tx-lg);
+}
+
+h2 {
+  font: var(--tx-md);
 }
