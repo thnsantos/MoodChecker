@@ -1,4 +1,4 @@
-**,
+*,
 ::after,
 ::before {
   margin: 0;
@@ -7,11 +7,21 @@
 }
 
 :root {
+  --bg-color-pri: #386c8aa8;
+  --bd-color-sec: #eef5f5;
 
-  --bg-color-pri: #c7e0d352;
-  --bd-color-sec: #060713;
+
+  --font-int: "Inter", sans-serif;
+  --font-sora: "Sora", sans-serif;
+  --font-news: "Newsreader", serif;
+
+  --tx-lg: 600 40px/150% var(--font-news);
 }
 
 body {
   background: var(--bg-color-pri);
+}
+
+h1 {
+  font: var(--tx-lg);
 }
