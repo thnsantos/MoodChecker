@@ -1,0 +1,17 @@
+**,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+  --bg-color-pri: #c7e0d352;
+  --bd-color-sec: #060713;
+}
+
+body {
+  background: var(--bg-color-pri);
+}
