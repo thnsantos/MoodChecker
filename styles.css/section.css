@@ -97,6 +97,11 @@
   outline-offset: 2px;
 }
 
+.mood-questions legend {
+  font: var(--tx-md);
+  padding: 0;
+  color: #0d171d;
+}
 
 input,
 button {
