@@ -36,7 +36,43 @@
   <section class="container-login checkin-section">
     <h1>Seu Check-in</h1>
     <p>Responda as perguntas abaixo:</p>
-    <p>_________________________________________________________</p>
+    <div class="checkin-divider" aria-hidden="true"></div>
+
+    <fieldset class="mood-selection">
+      <legend>Como está seu humor hoje?</legend>
+
+      <div class="mood-options">
+        <label class="mood-option">
+          <input type="radio" name="mood" value="muito-feliz">
+          <span class="mood-card" aria-hidden="true">&#128513;</span>
+          <span class="mood-name">Muito feliz</span>
+        </label>
+
+        <label class="mood-option">
+          <input type="radio" name="mood" value="feliz">
+          <span class="mood-card" aria-hidden="true">&#128578;</span>
+          <span class="mood-name">Feliz</span>
+        </label>
+
+        <label class="mood-option">
+          <input type="radio" name="mood" value="neutro">
+          <span class="mood-card" aria-hidden="true">&#128528;</span>
+          <span class="mood-name">Neutro</span>
+        </label>
+
+        <label class="mood-option">
+          <input type="radio" name="mood" value="triste">
+          <span class="mood-card" aria-hidden="true">&#128577;</span>
+          <span class="mood-name">Triste</span>
+        </label>
+
+        <label class="mood-option">
+          <input type="radio" name="mood" value="muito-triste">
+          <span class="mood-card" aria-hidden="true">&#128543;</span>
+          <span class="mood-name">Muito triste</span>
+        </label>
+      </div>
+    </fieldset>
   </section>
 
   <script src="scripts.js"></script>
