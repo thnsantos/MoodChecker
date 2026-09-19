@@ -37,8 +37,15 @@ if (loginForm && registerInput && passwordInput) {
 if (checkinForm) {
   checkinForm.addEventListener('submit', (event) => {
     event.preventDefault();
+
     alert('Check-in enviado!');
     console.log('Check-in enviado');
+
+    checkinForm.classList.add('hidden');
+    loginForm.classList.remove('hidden');
+
+    checkinForm.reset();
+    loginForm.reset();
   });
 }
 
