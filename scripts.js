@@ -3,6 +3,7 @@ const registerInput = document.getElementById('register');
 const passwordInput = document.getElementById('password');
 const checkinForm = document.getElementById('checkin-form');
 
+
 if (loginForm && registerInput && passwordInput) {
   registerInput.addEventListener('input', () => {
     registerInput.value = registerInput.value.replace(/\D/g, '');
@@ -26,6 +27,7 @@ if (loginForm && registerInput && passwordInput) {
       return;
     }
 
+    checkinForm.classList.remove('hidden')
     console.log('Matrícula:', registerValue);
     console.log('Senha:', passwordValue);
   });
