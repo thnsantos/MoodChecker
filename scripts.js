@@ -27,7 +27,8 @@ if (loginForm && registerInput && passwordInput) {
       return;
     }
 
-    checkinForm.classList.remove('hidden')
+    loginForm.classList.add('hidden');
+    checkinForm.classList.remove('hidden');
     console.log('Matrícula:', registerValue);
     console.log('Senha:', passwordValue);
   });

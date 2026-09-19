@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="styles.css/index.css">
 </head>
 <body>
-  <section class="container">
+  <div class="form-stage">
     <form class="container-login" id="login-form" novalidate>
       <div>
         <h1>Entrar</h1>
@@ -31,9 +31,8 @@
         <span></span>
       </div>
     </form>
-  </section>
 
-  <form class="container-login checkin-section hidden" id="checkin-form" novalidate>
+    <form class="container-login checkin-section hidden" id="checkin-form" novalidate>
     <h1>Seu Check-in</h1>
     <p>Responda as perguntas abaixo:</p>
     <div class="checkin-divider" aria-hidden="true"></div>
@@ -187,8 +186,9 @@
       <textarea id="thoughts" name="thoughts" rows="4" placeholder="Escreva aqui..."></textarea>
     </div>
 
-    <button type="submit" class="submit-btn">Enviar</button>
-  </form>
+      <button type="submit" class="submit-btn">Enviar</button>
+    </form>
+  </div>
 
   <script src="scripts.js"></script>
 </body>
