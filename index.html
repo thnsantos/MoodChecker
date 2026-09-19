@@ -75,33 +75,119 @@
     </fieldset>
 
     <fieldset class="mood-questions">
-      <legend>Perguntas de 1 a 5</legend>
-      
-      <label>
-        <input type="radio" name="number" id="number">
-        1
-      </label>
+      <legend>Como você está se sentindo hoje?</legend>
 
-      <label>
-        <input type="radio" name="number" id="number">
-        2
-      </label>
+      <div class="rating-options">
+        <label class="rating-option">
+          <input type="radio" name="number" value="1">
+          <span class="rating-circle">1</span>
+          <span class="rating-label">Muito bom</span>
+        </label>
 
-      <label>
-        <input type="radio" name="number" id="number">
-        3
-      </label>
+        <label class="rating-option">
+          <input type="radio" name="number" value="2">
+          <span class="rating-circle">2</span>
+          <span class="rating-label">Bom</span>
+        </label>
 
-      <label>
-        <input type="radio" name="number" id="number">
-        4
-      </label>
-      
-      <label>
-        <input type="radio" name="number" id="number">
-        5
-      </label>
+        <label class="rating-option">
+          <input type="radio" name="number" value="3">
+          <span class="rating-circle">3</span>
+          <span class="rating-label">Médio</span>
+        </label>
+
+        <label class="rating-option">
+          <input type="radio" name="number" value="4">
+          <span class="rating-circle">4</span>
+          <span class="rating-label">Ruim</span>
+        </label>
+
+        <label class="rating-option">
+          <input type="radio" name="number" value="5">
+          <span class="rating-circle">5</span>
+          <span class="rating-label">Muito ruim</span>
+        </label>
+      </div>
     </fieldset>
+
+    <fieldset class="mood-questions extra-scale">
+      <legend>Como está seu nível de energia hoje?</legend>
+
+      <div class="rating-options">
+        <label class="rating-option">
+          <input type="radio" name="energy" value="1">
+          <span class="rating-circle">1</span>
+          <span class="rating-label">Muito baixo</span>
+        </label>
+
+        <label class="rating-option">
+          <input type="radio" name="energy" value="2">
+          <span class="rating-circle">2</span>
+          <span class="rating-label">Baixo</span>
+        </label>
+
+        <label class="rating-option">
+          <input type="radio" name="energy" value="3">
+          <span class="rating-circle">3</span>
+          <span class="rating-label">Normal</span>
+        </label>
+
+        <label class="rating-option">
+          <input type="radio" name="energy" value="4">
+          <span class="rating-circle">4</span>
+          <span class="rating-label">Alto</span>
+        </label>
+
+        <label class="rating-option">
+          <input type="radio" name="energy" value="5">
+          <span class="rating-circle">5</span>
+          <span class="rating-label">Muito alto</span>
+        </label>
+      </div>
+    </fieldset>
+
+    <fieldset class="mood-questions extra-scale">
+      <legend>Você está conseguindo se concentrar bem?</legend>
+
+      <div class="rating-options">
+        <label class="rating-option">
+          <input type="radio" name="focus" value="1">
+          <span class="rating-circle">1</span>
+          <span class="rating-label">Muito difícil</span>
+        </label>
+
+        <label class="rating-option">
+          <input type="radio" name="focus" value="2">
+          <span class="rating-circle">2</span>
+          <span class="rating-label">Difícil</span>
+        </label>
+
+        <label class="rating-option">
+          <input type="radio" name="focus" value="3">
+          <span class="rating-circle">3</span>
+          <span class="rating-label">Médio</span>
+        </label>
+
+        <label class="rating-option">
+          <input type="radio" name="focus" value="4">
+          <span class="rating-circle">4</span>
+          <span class="rating-label">Fácil</span>
+        </label>
+
+        <label class="rating-option">
+          <input type="radio" name="focus" value="5">
+          <span class="rating-circle">5</span>
+          <span class="rating-label">Muito fácil</span>
+        </label>
+      </div>
+    </fieldset>
+
+    <div class="message-box">
+      <label for="thoughts">O que você está pensando agora?</label>
+      <textarea id="thoughts" name="thoughts" rows="4" placeholder="Escreva aqui..."></textarea>
+    </div>
+
+    <button type="submit" class="submit-btn">Enviar</button>
   </section>
 
   <script src="scripts.js"></script>
