@@ -233,17 +233,20 @@ button:hover {
 }
 
 @media (max-width: 480px) {
-  .container {
+  .form-stage {
     padding: 0.75rem;
+    min-height: auto;
   }
 
   .container-login {
     padding: 1.5rem;
     min-height: auto;
+    margin: 0 auto;
   }
 
   .checkin-section {
-    margin-bottom: 1.5rem;
+    width: min(calc(100% - 1rem), 440px);
+    margin: 0 auto 1.5rem auto;
   }
 
   .register-prompt {
